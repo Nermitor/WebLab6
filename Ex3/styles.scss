@@ -1,0 +1,50 @@
+.container {
+  max-width: 1440px;
+  height: 100%;
+  margin: 40px auto;
+}
+
+.animals {
+  &__grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+  }
+
+  &__item {
+
+    &-friend {
+      .animals__description {
+        background-color: #c9c106;
+      }
+    }
+
+    &-hunter {
+      .animals__description {
+        background-color: #c0570d;
+      }
+    }
+  }
+
+  &__image {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+
+
+    img {
+      padding: 10px;
+      border: #fff622 5px solid;
+      max-width: 400px;
+    }
+
+
+  }
+
+  &__description {
+    padding: 10px;
+    border: black 2px solid;
+    font-size: 1.3em;
+  }
+
+}

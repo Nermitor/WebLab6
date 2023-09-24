@@ -1,0 +1,63 @@
+body {
+  background-color: black;
+}
+
+p, a {
+  color: white;
+}
+
+.description p {
+  font-size: 1.4em;
+}
+
+.title p {
+  color: red;
+  font-size: 1.8em;
+}
+
+.bond__image img {
+  min-width: 400px;
+  max-width: 500px;
+}
+.bond__image-with-description {
+  display: flex;
+}
+.bond__image-with-description :not(:last-child) {
+  margin-right: 40px;
+}
+.bond__subtitle p {
+  color: red;
+  font-size: 1.6em;
+}
+
+.container {
+  max-width: 1440px;
+  height: 100%;
+  margin: 40px auto;
+}
+
+.actor__title {
+  text-align: center;
+}
+.actor__image {
+  display: flex;
+  justify-content: center;
+}
+.actor__link {
+  text-align: center;
+}
+
+.menu {
+  background-color: #333333;
+  padding: 40px 0;
+  display: flex;
+  justify-content: space-around;
+}
+.menu__item :hover {
+  cursor: pointer;
+}
+.menu__item button {
+  background-color: #212121;
+}
+
+/*# sourceMappingURL=styles.scss.map */
